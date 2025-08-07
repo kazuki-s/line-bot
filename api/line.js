@@ -15,7 +15,7 @@ export default async function handler(req, res) {
   console.log('UserID:', event.source.userId);
 
   // ✅ 実際のチャネルアクセストークンをここに貼る（長期アクセストークン）
-  const ACCESS_TOKEN = 'jzcN59ozbLmEoRNvZLDqqKR5F5knZfYJshH1WIWzS0/J1Qq3KFNrPAOj38fQSrbBWYZexpcee7ay1FKdFCQR/2XYT0WU/M6DzfpBpig6QQqW/wDya8A/HUutZ6ostNExr74OE+5xGyyEwezl3xH5LAdB04t89/1O/w1cDnyilFU=';
+  const ACCESS_TOKEN = '6c45e3bp/k09w2kFPxH5FgUm3EwmWPZO6BnEz9cWacES1UWDOKMOvNi0ZYtpSuF/WYZexpcee7ay1FKdFCQR/2XYT0WU/M6DzfpBpig6QQr2sm2EPkORA38t8Iia4v6z6NCdjjqS7w9Lu+t/SEqWYwdB04t89/1O/w1cDnyilFU=';
 
   const replyToken = event.replyToken;
 
